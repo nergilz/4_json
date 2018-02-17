@@ -3,18 +3,18 @@ import json
 import sys
 
 
-def load_data(filepath):
-    with open(os.path.join(filepath), 'r', encoding='utf-8') as filehandler:
-        data_read = json.load(filehandler)
-        return data_read
+def load_data(path_to_file):
+    with open(os.path.join(path_to_file), 'r', encoding='utf-8') as data_handler:
+        json_content = json.load(data_handler)
+        return json_content
 
 
-def pretty_print_json(data):
-    print(json.dumps(data, ensure_ascii=False, sort_keys=True, indent=2))
+def pretty_print_json(json_content):
+    print(json.dumps(json_content, ensure_ascii=False, sort_keys=True, indent=2))
 
 
-arg_path = sys.argv[1]
+path_to_file = sys.argv[1]
 
 if __name__ == '__main__':
-    data = load_data(arg_path)
-    pretty_print_json(data)
+    json_content = load_data(path_to_file)
+    pretty_print_json(json_content)
