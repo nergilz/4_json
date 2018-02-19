@@ -19,48 +19,68 @@ $ python pprint_json.py <path to file>
 + Example output information from a file
 
 '''
-      "properties": {
-        "Attributes": {
-          "Address": "улица Академика Королёва, дом 3",
-          "AdmArea": "Северо-Восточный административный округ",
-          "ClarificationOfWorkingHours": null,
-          "District": "Останкинский район",
-          "IsNetObject": "да",
-          "Name": "Магазин «Отдохни»",
-          "OperatingCompany": "Отдохни",
-          "PublicPhone": [
-            {
-              "PublicPhone": "(495) 424-95-15"
-            }
-          ],
-          "TypeService": "реализация продовольственных товаров",
-          "WorkingHours": [
-            {
-              "DayOfWeek": "понедельник",
-              "Hours": "09:00-23:00"
-            },
-            {
-              "DayOfWeek": "вторник",
-              "Hours": "09:00-23:00"
-            },
-          ],
-          "global_id": 171714826
-        },
-        "DatasetId": 1854,
-        "ReleaseNumber": 2,
-        "RowId": "a5d9874a-600e-400d-8512-a8215599ecaa",
-        "VersionNumber": 1
-      },
-      "type": "Feature"
+"properties": {
+"Attributes": {
+  "Address": "улица Академика Королёва, дом 3",
+  "AdmArea": "Северо-Восточный административный округ",
+  "ClarificationOfWorkingHours": null,
+  "District": "Останкинский район",
+  "IsNetObject": "да",
+  "Name": "Магазин «Отдохни»",
+  "OperatingCompany": "Отдохни",
+  "PublicPhone": [
+    {
+      "PublicPhone": "(495) 424-95-15"
+    }
+  ],
+  "TypeService": "реализация продовольственных товаров",
+  "WorkingHours": [
+    {
+      "DayOfWeek": "понедельник",
+      "Hours": "09:00-23:00"
     },
     {
-      "geometry": {
-        "coordinates": [
-          37.72775243734561,
-          55.61668660260342
-        ],
-        "type": "Point"
-      },
+      "DayOfWeek": "вторник",
+      "Hours": "09:00-23:00"
+    },
+    {
+      "DayOfWeek": "среда",
+      "Hours": "09:00-23:00"
+    },
+    {
+      "DayOfWeek": "четверг",
+      "Hours": "09:00-23:00"
+    },
+    {
+      "DayOfWeek": "пятница",
+      "Hours": "09:00-23:00"
+    },
+    {
+      "DayOfWeek": "суббота",
+      "Hours": "09:00-23:00"
+    },
+    {
+      "DayOfWeek": "воскресенье",
+      "Hours": "09:00-23:00"
+    }
+  ],
+  "global_id": 171714826
+},
+"DatasetId": 1854,
+"ReleaseNumber": 2,
+"RowId": "a5d9874a-600e-400d-8512-a8215599ecaa",
+"VersionNumber": 1
+},
+"type": "Feature"
+},
+{
+"geometry": {
+"coordinates": [
+  37.72775243734561,
+  55.61668660260342
+],
+"type": "Point"
+},
 
 '''
 
