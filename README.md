@@ -1,6 +1,6 @@
 ## Prettify JSON
 
-+ The script read the json-file and displays the data in a convenient way
+The script read the json-file and displays the data in a convenient way
 ---
 ### Quickstart
 
@@ -10,15 +10,15 @@
 ---
 
 
-+ Example of script launch on Linux, Python 3.5:
+#### Example of script launch on Linux, Python 3.5:
 
 ```bash
 $ python pprint_json.py <path to file>
 
 ```
-+ Example output information from a file
+#### Example output information from a file
 
-```javascript
+```json
 "properties": {
 "Attributes": {
   "Address": "улица Академика Королёва, дом 3",
