@@ -23,8 +23,7 @@ if __name__ == '__main__':
     try:
         path_to_file = sys.argv[1]
         json_content = load_data(path_to_file)
-        if json_content is not None:
-            print(pretty_json(json_content))
+        print(pretty_json(json_content))
     except IndexError:
         print(' Script_Error: No filename for reading.')
     except FileNotFoundError:
